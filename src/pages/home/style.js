@@ -1,9 +1,17 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
-export const Box = styled.div`
+export const Main = styled.main`
   width: 100%;
-  min-height: 500px
+  min-height: 800px;
   display: flex;
+`;
+
+export const Article = styled.article`
+  width: 80%;
+  margin: 20px auto;
+`;
+
+export const Section = styled.section`
 `;
 
 export const BoxText = styled.div`
